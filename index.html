@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            jQuery Tutorial
+        </title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+        <script type="text/css"  href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet"></script>
+    </head>
+    <body>
+        <h1>jQuery Tutorial</h1>
+        <p>by Jashwanth</p>
+        <p>by not others</p>
+        <ul>
+            <li>Artificial Intelligence</li>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+        </ul>
+        <script>
+            let design = {
+                color: "blue",
+                background: "green",
+                border: "3px solid balck"
+            }
+        </script>
+        <div class="technology">
+            <img id="one" src="random.jpg">
+            <img id="two" src="random.jpg">
+            <img id="three" src="random.jpg">
+        </div>
+        <input id="press" type="text" size="10">
+        <button class="button" id="hide">Hide</button>
+        <button class="button" id="show">Show</button>
+        <button class="button" id="toggle">Toogle</button>
+        <button>Slide</button>
+        <div id="div1" style="width:90px; height:60px; background-color:blue"></div>
+        <script>
+            // $(document).ready(function() {
+            //     $("button").click(function () {
+            //         alert('value'+$("#sometext").val())
+            //     });
+
+            // });
+            // $(document).ready(function() {
+            //     $("button").click(function () {
+            //         $("img").addClass("styleClass");
+            //     });
+
+            // });
+            // $(document).ready(function() {
+            //     $("img").click(function () {
+            //         $(this).hide()
+            //     });
+
+            // });
+            // $(document).ready(function() {
+            //     $("input").on("keypress", function () {
+            //         $("p").hide();
+            //     });
+
+            // });
+            // $(document).ready(function() {
+            //     $("#hide").click(function() {
+            //         $("img").hide();
+            //     })
+            //     $("#show").click(function() {
+            //         $("img").show();
+            //     })
+            //     $("#toggle").click(function() {
+            //         $("img").toggle();
+            //     })
+
+            // })
+            // $(document).ready(function() {
+            //     $("#hide").click(function() {
+            //         $("#one").fadeOut("slow");
+            //         $("#two").fadeOut("fast");
+            //         $("#three").fadeOut("slow");
+            //     })
+            //     $("#show").click(function() {
+            //         $("#one").fadeIn();
+            //         $("#two").fadeIn("fast");
+            //         $("#three").fadeIn(3000);
+            //     })
+            //     $("#toggle").click(function() {
+            //         $("img").fadeToggle();
+            //     })
+
+            // })
+            // $(document).ready(function(){
+            //     $("button").on("click", function() {
+            //         $("#div1").slideToggle("slow");
+            //     })
+            // })
+                // $(function() {
+                //     $("#drag").draggable();
+                // });
+                // $(function() {
+                //     $("img").draggable();
+                //     $("#drop").droppable();
+                // })
+            $("input").datepicker();
+        </script>
+        <div id="drag">
+            <p>Drag me around</p>
+        </div>
+        <div id="drop">
+            <p>My home</p>
+        </div>
+        <img id="img4" src="random.jpg">
+        <style>
+            .styleClass {
+                border: 5px solid orange;
+            }
+            #drag {
+                width: 150px;
+                height: 60px;
+                background-color: blueviolet;
+            }
+            #drop {
+                width: 400px;
+                height: 400px;
+                float:right;
+                background-color: aquamarine;
+            }
+        </style>
+        <input type="text" id="sometext" value="">
+        <button>Submit</button>
+        <button>Try addClass()</button>
+        <input id="date" type="text" size="10">
+    </body>
+</html>
